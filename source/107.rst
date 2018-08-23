@@ -48,13 +48,14 @@ Write answer to the output.
 	using namespace std;
 
 	int main() {
-		int n; scanf("%d", &n);
-		if (n <= 8) puts("0");
-		else if (n == 9) puts("8");
-		else {
-			printf("72");
-			rep(i, n - 10) putchar('0');
-			puts("");
-		}
-		return 0;
+	  int n; scanf("%d", &n);
+	  if (n <= 8) puts("0");
+	  else if (n == 9) puts("8");
+	  else {
+	    printf("72");
+	    rep(i, n - 10) putchar('0');
+	    puts("");
+	  }
+	  return 0;
 	}
+

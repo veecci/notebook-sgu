@@ -2,7 +2,7 @@
 
 101. Domino
 ========================================
-``time limit per test: 0.25 sec`` ``memory limit per test: 4096 KB``
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
 
 Dominoes – game played with small, rectangular blocks of wood or other material, each identified by a number of dots, or pips, on its face. The blocks usually are called bones, dominoes, or pieces and sometimes men, stones, or even cards.
 The face of each piece is divided, by a line or ridge, into two squares, each of which is marked as would be a pair of dice...
