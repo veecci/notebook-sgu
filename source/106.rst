@@ -1,0 +1,26 @@
+.. _106.rst:
+
+106. The equation
+========================================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+There is an equation ax + by + c = 0. Given a,b,c,x1,x2,y1,y2 you must determine, how many integer roots of this equation are satisfy to the following conditions : :math:`x1 \le x \le x2`,   :math:`y1 \le y \le y2`. Integer root of this equation is a pair of integer numbers (x,y).
+
+**Input**
+
+Input contains integer numbers a,b,c,x1,x2,y1,y2 delimited by spaces and line breaks. All numbers are not greater than :math:`10^8` by absolute value.
+
+
+**Output**
+
+Write answer to the output.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 1 1 -3       | | 4            |
+| | 0 4          |                |
+| | 0 4          |                |
++----------------+----------------+

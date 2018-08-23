@@ -1,0 +1,55 @@
+.. _105.rst:
+
+105. Div 3
+========================================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+There is sequence 1, 12, 123, 1234, ..., 12345678910, ... . Given first N elements of that sequence. You must determine amount of numbers in it that are divisible by 3.
+
+**Input**
+
+Input contains N (:math:`1\le N\le2^{31}-1`).
+
+
+**Output**
+
+Write answer to the output.
+
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 4            | | 2            |
++----------------+----------------+
+
+.. code-block:: cpp
+
+	#include <iostream>
+	#include <cstdio>
+	#include <cstdlib>
+	#include <cstring>
+	#include <algorithm>
+	#include <cmath>
+	#include <string>
+	#include <sstream>
+	#include <vector>
+	#include <queue>
+	#include <set>
+	#include <map>
+	#include <ctime>
+
+	#define inf 0x3f3f3f3f
+	#define Inf 0x3FFFFFFFFFFFFFFFLL
+	#define rep(i, n) for (int i = 0; i < (n); ++i)
+	#define Rep(i, n) for (int i = 1; i <= (n); ++i)
+	#define clr(x, a) memset(x, (a), sizeof x)
+	using namespace std;
+	typedef long long ll;
+
+	int main() {
+		int n; scanf("%d", &n);
+		printf("%d\n", n / 3 * 2 + (n % 3 == 2));
+		return 0;
+	}

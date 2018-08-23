@@ -1,0 +1,60 @@
+.. _107.rst
+
+107. 987654321 problem
+========================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+For given number N you must output amount of N-digit numbers, such, that last digits of their square is equal to 987654321.
+
+
+**Input**
+
+Input contains integer number N (:math:`1 \le N \le 10^6`)
+
+
+**Output**
+
+Write answer to the output.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 8            | | 0            |
++----------------+----------------+
+
+.. code-block:: cpp
+
+	#include <iostream>
+	#include <cstdio>
+	#include <cstdlib>
+	#include <cstring>
+	#include <algorithm>
+	#include <cmath>
+	#include <string>
+	#include <sstream>
+	#include <vector>
+	#include <queue>
+	#include <set>
+	#include <map>
+	#include <ctime>
+
+	#define inf 0x3f3f3f3f
+	#define Inf 0x3FFFFFFFFFFFFFFFLL
+	#define rep(i, n) for (int i = 0; i < (n); ++i)
+	#define Rep(i, n) for (int i = 1; i <= (n); ++i)
+	#define clr(x, a) memset(x, (a), sizeof x)
+	using namespace std;
+
+	int main() {
+		int n; scanf("%d", &n);
+		if (n <= 8) puts("0");
+		else if (n == 9) puts("8");
+		else {
+			printf("72");
+			rep(i, n - 10) putchar('0');
+			puts("");
+		}
+		return 0;
+	}

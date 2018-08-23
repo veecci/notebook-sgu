@@ -2,7 +2,7 @@
 
 100. A+B
 ========================================
-``time limit per test: 0.25 sec / memory limit per test: 65536 KB``
+``time limit per test: 0.25 sec`` ``memory limit per test: 4096 KB``
 
 Read integers A and B from input file and write their sum in output file.
 
