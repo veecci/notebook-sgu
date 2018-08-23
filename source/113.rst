@@ -6,12 +6,12 @@
 
 Nearly prime number is an integer positive number for which it is possible to find such primes P :sub:`1` and P :sub:`2` that given number is equal to :math:`P_1 * P_2`. There is given a sequence on N integer positive numbers, you are to write a program that prints “Yes” if given number is nearly prime and “No” otherwise.
 
-Input
+**Input**
 
 Input file consists of N+1 numbers. First is positive integer N (:math:`1 \le N \le 10`). Next N numbers followed by N. Each number is not greater than :math:`10^9`. All numbers separated by whitespace(s).
 
 
-Output
+**Output**
 
 Write a line in output file for each number of given sequence. Write “Yes” in it if given number is nearly prime and “No” in other case.
 
@@ -26,11 +26,11 @@ Write a line in output file for each number of given sequence. Write “Yes” i
 
 ------------------------------------------
 
-========  ============================
-Author    : Michael R. Mirzayanov
-Resource  : PhTL #1 Training Contests
-Date      : Fall 2001
-========  ============================
+.. csv-table:: 
+   :header: "Author", "Resource", "Date"
+   :widths: 15, 15, 15
+
+   ": Michael R. Mirzayanov", ": PhTL #1 Training Contests", ": Fall 2001"
 
 .. code-block:: cpp
 
