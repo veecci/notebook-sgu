@@ -24,14 +24,14 @@ either *B* for *blue* or *P* for *purple*, indicating the initial color
 of the light at the junction *i*. Finally, the next *M* lines contain
 information on *M* roads. Each line is of the form: *i*, *j*,
 *l*\ :sub:`ij` where *i* and *j* are the id-numbers of the junctions
-which are connected by this road. 2 ≤ *N* ≤ 300 where *N* is the number
+which are connected by this road. 2 :math:`\le` *N* :math:`\le` 300 where *N* is the number
 of junctions. The junctions are identified by integers 1 through *N*.
-These numbers are called id-numbers. 1 ≤ *M* ≤ 14000 where *M* is the
-number of roads. 1 ≤ *l*\ :sub:`ij` ≤ 100 where *l*\ :sub:`ij` is the
+These numbers are called id-numbers. 1 :math:`\le` *M* :math:`\le` 14000 where *M* is the
+number of roads. 1 :math:`\le` *l*\ :sub:`ij` :math:`\le` 100 where *l*\ :sub:`ij` is the
 time required to move from junction *i* to *j* using the road that
-connects *i* and *j*. 1 ≤ *t*\ :sub:`iC` ≤ 100 where *t*\ :sub:`iC` is
+connects *i* and *j*. 1 :math:`\le` *t*\ :sub:`iC` :math:`\le` 100 where *t*\ :sub:`iC` is
 the duration of the color *c* for the light at the junction *i*. The
-index *c* is either 'B' for blue or 'P' for purple. 1 ≤ *r*\ :sub:`iC` ≤
+index *c* is either 'B' for blue or 'P' for purple. 1 :math:`\le` *r*\ :sub:`iC` :math:`\le`
 *t*\ :sub:`iC` where *r*\ :sub:`iC` is the remaining time for the
 initial color *c* at junction *i*.
 

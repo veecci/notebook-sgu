@@ -16,7 +16,7 @@ Given a set of domino pieces where each side is marked with two digits from 0 to
 
 **Input**
 
-The first line of the input contains a single integer N (1 ≤ N ≤ 100) representing the total number of pieces in the domino set. The following N lines describe pieces. Each piece is represented on a separate line in a form of two digits from 0 to 6 separated by a space.
+The first line of the input contains a single integer N (1 :math:`\le` N :math:`\le` 100) representing the total number of pieces in the domino set. The following N lines describe pieces. Each piece is represented on a separate line in a form of two digits from 0 to 6 separated by a space.
 
 
 **Output**
