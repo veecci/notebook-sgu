@@ -4,7 +4,7 @@
 =============================
 ``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
 
-Nearly prime number is an integer positive number for which it is possible to find such primes P :sub:`1` and P:sub:`2` that given number is equal to :math:`P_1 * P_2`. There is given a sequence on N integer positive numbers, you are to write a program that prints “Yes” if given number is nearly prime and “No” otherwise.
+Nearly prime number is an integer positive number for which it is possible to find such primes P :sub:`1` and P :sub:`2` that given number is equal to :math:`P_1 * P_2`. There is given a sequence on N integer positive numbers, you are to write a program that prints “Yes” if given number is nearly prime and “No” otherwise.
 
 Input
 
