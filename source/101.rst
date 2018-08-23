@@ -1,0 +1,121 @@
+.. _101.rst:
+
+101. Domino
+========================================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+Dominoes – game played with small, rectangular blocks of wood or other material, each identified by a number of dots, or pips, on its face. The blocks usually are called bones, dominoes, or pieces and sometimes men, stones, or even cards.
+The face of each piece is divided, by a line or ridge, into two squares, each of which is marked as would be a pair of dice...
+
+The principle in nearly all modern dominoes games is to match one end of a piece to another that is identically or reciprocally numbered.
+
+ENCYCLOPÆDIA BRITANNICA
+
+Given a set of domino pieces where each side is marked with two digits from 0 to 6. Your task is to arrange pieces in a line such way, that they touch through equal marked sides. It is possible to rotate pieces changing left and right side.
+
+
+**Input**
+
+The first line of the input contains a single integer N (1 ≤ N ≤ 100) representing the total number of pieces in the domino set. The following N lines describe pieces. Each piece is represented on a separate line in a form of two digits from 0 to 6 separated by a space.
+
+
+**Output**
+
+Write “**No solution**” if it is impossible to arrange them described way. If it is possible, write any of way. Pieces must be written in left-to-right order. Every of N lines must contains number of current domino piece and sign “**+**” or “**-**” (first means that you not rotate that piece, and second if you rotate it).
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 5            | | 2 -          |
+| | 1 2          | | 5 +          |
+| | 2 4          | | 1 +          |
+| | 2 4          | | 3 +          |
+| | 6 4          | | 4 -          |
+| | 2 1          |                |
++----------------+----------------+
+
+.. note::
+
+	Simple euler path problem, use *Fleury's Algorithm*.
+
+.. code-block:: cpp
+
+	#include <iostream>
+	#include <cstdio>
+	#include <cstdlib>
+	#include <cstring>
+	#include <algorithm>
+	#include <cmath>
+	#include <string>
+	#include <vector>
+	#include <queue>
+	#include <set>
+	#include <ctime>
+	#include <map>
+
+	#define inf 0x3f3f3f3f
+	#define Inf 0x3FFFFFFFFFFFFFFFLL
+	#define rep(i, n) for (int i = 0; i < (n); ++i)
+	#define Rep(i, n) for (int i = 1; i <= (n); ++i)
+	#define clr(x, a) memset(x, (a), sizeof x)
+	using namespace std;
+
+	int const N = 10;
+	int const M = 111;
+	int g[N][N];
+	int d[N];
+	int n, m;
+	int ans[M];
+	int cnt;
+	int l[M][2];
+
+	void mark(int u, int v) {
+	  Rep(i, m) {
+	    if (l[i][0] == u && l[i][1] == v) {
+	      ans[cnt++] = i;
+	      l[i][0] = l[i][1] = -1;
+	      break;
+	    } else if (l[i][0] ==v && l[i][1] == u) {
+	      ans[cnt++] = -i;
+	      l[i][0] = l[i][1] = -1;
+	      break;
+	    } 
+	  } 
+	}
+
+	void go(int u) {
+	  rep(i, n + 1) if (g[u][i] > 0) {
+	    --g[u][i], --g[i][u];
+	    go(i);
+	    mark(i, u);
+	  }
+	}
+	int main() {
+	  n = 6; scanf("%d", &m);
+	  Rep(i, m) {
+	    int x, y; scanf("%d%d", &x, &y);
+	    g[x][y]++, g[y][x]++;
+	    d[x]++, d[y]++;
+	    l[i][0] = x, l[i][1] = y;
+	  }
+	  int oc = 0, o = -1;
+	  rep(i, n + 1) if (d[i] > 0) {
+	    if (o == -1) o = i;
+	    if (d[i] % 2 != 0) {
+	      o = i; ++oc;
+	    }
+	  }
+	  if (oc > 2) puts("No solution");
+	  else {
+	    go(o);
+	    if (cnt != m) {
+	      puts("No solution");
+	      return 0;
+	    }
+	    rep(i, cnt) {
+	      if (ans[i] < 0) printf("%d -\n", -ans[i]);
+	      else printf("%d +\n", ans[i]);
+	    }
+	  }
+	  return 0;
+	}

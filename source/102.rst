@@ -1,0 +1,62 @@
+.. _102.rst:
+
+102. Coprimes
+========================================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+For given integer N (1 ≤ N ≤ :math:`10^4`) find amount of positive numbers not greater than N that coprime with N. Let us call two positive integers (say, A and B, for example) coprime if (and only if) their greatest common divisor is 1. (i.e. A and B are coprime iff gcd(A,B) = 1).
+
+
+**Input**
+
+Input file contains integer N.
+
+
+**Output**
+
+Write answer in output file.
+
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 9            | | 6            |
++----------------+----------------+ 
+
+.. code-block:: cpp
+
+    #include <iostream>
+    #include <cstdio>
+    #include <cstdlib>
+    #include <cstring>
+    #include <algorithm>
+    #include <cmath>
+    #include <string>
+    #include <vector>
+    #include <queue>
+    #include <set>
+    #include <map>
+    #include <ctime>
+
+    #define inf 0x3f3f3f3f
+    #define Inf 0x3FFFFFFFFFFFFFFFLL
+    using namespace std;
+    typedef long long ll;
+
+    int main() {
+      int n, ret;
+      scanf("%d", &n);
+      ret = n;
+      for (int i = 2; i * i <= n; i += i == 2 ? 1 : 2) {
+        if (!(n % i)) {
+          ret = ret * (i - 1) / i;
+          while (!(n % i)) n /= i;
+        }
+      }	
+      if (n > 1) ret = ret * (n - 1) / n;
+      printf("%d\n", ret);
+      return 0;
+    }
+
