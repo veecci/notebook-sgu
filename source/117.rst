@@ -1,0 +1,24 @@
+.. 117.rst
+
+117. Counting
+===============
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+Find amount of numbers for given sequence of integer numbers such that after raising them to the M-th power they will be divided by K.
+
+**Input**
+
+Input consists of two lines. There are three integer numbers N, M, K (0<N, M, K<10001) on the first line. There are N positive integer numbers − given sequence (each number is not more than 10001) − on the second line.
+
+**Output**
+
+Write answer for given task.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 4 2 50       | | 1            |
+| | 9 10 11 12   |                |
++----------------+----------------+

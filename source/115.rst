@@ -1,0 +1,32 @@
+.. 115.rst
+
+115. Calendar
+===============
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+First year of new millenium is gone away. In commemoration of it write a program that finds the name of the day of the week for any date in 2001.
+
+**Input**
+
+Input is a line with two positive integer numbers N and M, where N is a day number in month M. N and M is not more than 100.
+
+
+**Output**
+
+Write current number of the day of the week for given date (Monday – number 1, … , Sunday – number 7) or phrase “Impossible” if such date does not exist.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 21 10        | | 7            |
++----------------+----------------+
+
+------------------------------------------
+
+.. csv-table:: 
+   :header: "Author", "Resource", "Date"
+   :widths: 15, 15, 15
+
+   ": Michael R. Mirzayanov", ": PhTL #1 Training Contests", ": Fall 2001"

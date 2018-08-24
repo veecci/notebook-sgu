@@ -1,0 +1,32 @@
+.. 118.rst
+
+118. Digital Root
+===================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+Let f(n) be a sum of digits for positive integer n. If f(n) is one-digit number then it is a digital root for n and otherwise digital root of n is equal to digital root of f(n). For example, digital root of 987 is 6. Your task is to find digital root for expression :math:`A_1*A_2*…*A_N + A_1*A_2*…*A_{N-1} + … + A_1*A_2 + A_1.`
+
+**Input**
+
+Input file consists of few test cases. There is K (1<=K<=5) in the first line of input. Each test case is a line. Positive integer number N is written on the first place of test case (N<=1000). After it there are N positive integer numbers (sequence A). Each of this numbers is non-negative and not more than :math:`10^9`.
+
+**Output**
+
+Write one line for every test case. On each line write digital root for given expression.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 1            | | 5            |
+| | 3 2 3 4      |                |
++----------------+----------------+
+
+------------------------------------------
+
+.. csv-table:: 
+   :header: "Author", "Resource", "Date"
+   :widths: 15, 15, 15
+
+   ": Michael R. Mirzayanov", ": PhTL #1 Training Contests", ": Fall 2001"
