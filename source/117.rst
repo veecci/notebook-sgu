@@ -22,3 +22,11 @@ Write answer for given task.
 | | 4 2 50       | | 1            |
 | | 9 10 11 12   |                |
 +----------------+----------------+
+
+------------------------------------------
+
+.. csv-table:: 
+   :header: "Author", "Resource", "Date"
+   :widths: 15, 15, 15
+
+   ": Michael R. Mirzayanov", ": PhTL #1 Training Contests", ": Fall 2001"
