@@ -12,13 +12,13 @@ The first line of the input contains 2 integers: M (1<=M<=70) and N (1<=N<=7). N
 
 You should output one integer: the minimal amount of pieces of chocolate which need to be placed on the cake.
 
-+----------------+----------------+
-|Sample Input    |Sample Output   |
-+----------------+----------------+
-| | 5 5          | | 4            |
-| | .*..*        |                |
-| | *....        |                |
-| | ..**.        |                |
-| | **.*.        |                |
-| | .**..        |                |
-+----------------+----------------+
++-----------------+----------------+
+|Sample Input     |Sample Output   |
++-----------------+----------------+
+| | 5 5           | | 4            |
+| | :math:`.*..*` |                |
+| | :math:`*.*..` |                |
+| | :math:`..**.` |                |
+| | :math:`**.*.` |                |
+| | :math:`.**..` |                |
++-----------------+----------------+
