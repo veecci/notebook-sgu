@@ -1,0 +1,19 @@
+.. _131.rst
+
+131. Hardwood floor
+======================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+The first line contains natural number M. The second line contains a natural number N.
+
+**Output**
+
+First line should contain the number X, or 0 if there are no solutions.
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 2 3          | | 5            |
++----------------+----------------+

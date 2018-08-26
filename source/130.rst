@@ -1,0 +1,19 @@
+.. _130.rst
+
+130. Circle
+==============
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+The first line contains the integer k (1 <= k <= 30).
+
+**Output**
+
+The first line should contain two numbers N and P delimited by space.
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 2            | | 2 3          |
++----------------+----------------+

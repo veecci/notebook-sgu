@@ -1,0 +1,25 @@
+.. _135.rst
+
+135. Drawing Lines
+=====================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+The input file will contain an integer number: N (0<=N<=65535).
+
+**Output**
+
+You should output one integer: the maximum number of zones into which the sheet of paper can be split if Johnny draws N lines.
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| |  0           | |  1           |
++----------------+----------------+
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| |  1           | |  2           |
++----------------+----------------+

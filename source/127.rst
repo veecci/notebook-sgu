@@ -1,0 +1,31 @@
+.. _127.rst
+
+127. Telephone directory
+===========================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+The first line contains a natural number K (0 < K < 255) - the maximum number of lines that one page can contain. The second line contains a natural N (0 < N < 8000) - number of phone numbers supplied. Each of following N lines contains a number consisting of 4 digits - phone numbers in any order, and it is known, that numbers in this list cannot repeat.
+
+**Output**
+
+First line should contain a natural number P - the number of pages in the telephone directory.
+
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 5            | | 5            |
+| | 10           |                |
+| | 1234         |                |
+| | 5678         |                |
+| | 1345         |                |
+| | 1456         |                |
+| | 1678         |                |
+| | 1111         |                |
+| | 5555         |                |
+| | 6789         |                |
+| | 6666         |                |
+| | 5000         |                |
++----------------+----------------+

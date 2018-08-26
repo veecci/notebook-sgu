@@ -1,0 +1,23 @@
+.. _128.rst
+
+128. Snake
+=============
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+First line contains the number N (4 <= N <= 10000) - amount of points. Each of the following N lines contains coordinates of points separated by space xi and yi (1 <= i <= N). Points are given in random order.
+
+**Output**
+
+First line should contain the length of the broken line L or 0 if there is no solution.
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 4            | | 12           |
+| | 0 0          |                |
+| | 0 3          |                |
+| | 3 3          |                |
+| | 3 0          |                |
++----------------+----------------+

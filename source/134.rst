@@ -1,0 +1,24 @@
+.. _134.rst
+
+134. Centroid
+================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+**Input**
+
+The first line of the input contains the integer number N (1<=N<=16 000). The next N-1 lines will contain two integers, a and b, separated by blanks, meaning that there exists an edge between vertex a and vertex b.
+
+**Output**
+
+You should print two lines. The first line should contain the minimum value associated to the centroid(s) and the number of centroids. The second line should contain the list of vertices which are centroids, sorted in ascending order.
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 5            | | 3            |
+| | 0 10         |                |
+| | 2 9          |                |
+| | 3 8          |                |
+| | 1 15         |                |
+| | 6 11         |                |
++----------------+----------------+
