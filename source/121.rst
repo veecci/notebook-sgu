@@ -1,3 +1,5 @@
+.. 121.rst
+
 121. Bridges painting
 =======================
 ``time limit per test: 0.25 sec / memory limit per test: 4096 KB``

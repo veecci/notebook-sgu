@@ -1,0 +1,31 @@
+.. 123.rst
+
+123. The sum
+==============
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+The Fibonacci sequence of numbers is known: :math:`F_1 = 1; F_2 = 1; F_{n+1} = F_n + F_{n-1}`, for n>1. You have to find S - the sum of the first K Fibonacci numbers.
+
+**Input**
+
+First line contains natural number K (0<K<41).
+
+**Output**
+
+First line should contain number S.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 5            | | 12           |
++----------------+----------------+
+
+------------------------------------------
+
+.. csv-table:: 
+   :header: "Author", "Resource", "Date"
+   :widths: 15, 15, 15
+
+   ": Paul “Stingray” Komkoff, Victor G. Samoilov", ": 5th Southern Subregional Contest. Saratov 2002", ": 2002-10-10"

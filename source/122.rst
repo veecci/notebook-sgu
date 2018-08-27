@@ -1,3 +1,5 @@
+.. 122.rst
+
 122. The book
 ===============
 ``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
