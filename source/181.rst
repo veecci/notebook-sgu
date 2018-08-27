@@ -1,0 +1,27 @@
+
+.. 181.rst
+
+181. X-Sequence
+=================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+| Let { :math:`x_i`} be the infinite sequence of integers: 
+| 1)	:math:`x_0` = A; 
+| 2)	:math:`x_i` = (alpha * :math:`x_{i-1}^2` + beta * :math:`x_{i-1}` + gamma) mod M, for i >= 1. 
+| Your task is to find :math:`x_k` if you know A, alpha, beta, gamma, M and k.
+
+**Input**
+
+Given A (1 <= A <= 10000), alpha (0 <= alpha <= 100), beta (0 <= beta <= 100), gamma (0 <= gamma <= 100), M (1 <= M <= 1000), k (0 <= k <= 10^9). All numbers are integer.
+
+**Output**
+
+Write :math:`x_k`.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 1 1 1 1 10 1 | | 3            |
++----------------+----------------+

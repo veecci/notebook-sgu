@@ -1,0 +1,29 @@
+
+.. 175.rst
+
+175. Encoding
+===============
+``time limit per test: 0.75 sec / memory limit per test: 32768 KB``
+
+Let phi(W) is the result of encoding for algorithm: 
+1.	If the length of W is 1 then phi(W) is W; 
+2.	Let coded word is W = w1w2...wN and K = N / 2 (rounded down); 
+3.	phi(W) = phi( :math:`w_Nw_{N-1}...w_{K+1}`) + phi( :math:`w_Kw_{K-1}...w_1`). 
+For example, phi('Ok') = 'kO', phi('abcd') = 'cdab'. 
+Your task is to find position of letter :math:`w_q` in encoded word phi(W).
+
+**Input**
+
+Given integers N, q (1 <= N <= 10^9; 1<= q <= N), where N is the length of word W.
+
+**Output**
+
+Write position of letter wq in encoded word phi(W).
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 9 4          | | 8            |
++----------------+----------------+
