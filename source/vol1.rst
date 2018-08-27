@@ -30,6 +30,8 @@ Volume 1 (100 - 199)
    121.rst
    122.rst
    123.rst
+   124.rst
+   126.rst
    127.rst
    128.rst
    129.rst
@@ -40,3 +42,5 @@ Volume 1 (100 - 199)
    134.rst
    135.rst
    136.rst
+   138.rst
+   139.rst
