@@ -1,0 +1,32 @@
+
+.. 120.rst
+
+120. Archipelago
+==================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+Archipelago Ber-Islands consists of N islands that are vertices of equiangular and equilateral N-gon. Islands are clockwise numerated. Coordinates of island :math:`N_1` are :math:`(x_1, y_1)`, and island :math:`N_2` – :math:`(x_2, y_2)`. Your task is to find coordinates of all N islands.
+
+
+
+**Input**
+
+In the first line of input there are N, N1 and N2 ( :math:`3 \le N \le 150, 1 \le N_1, N_2 \le N, N1 \neq N2`) separated by spaces. On the next two lines of input there are coordinates of island :math:`N_1` and :math:`N_2` (one pair per line) with accuracy 4 digits after decimal point. Each coordinate is more than -2000000 and less than 2000000.
+
+
+
+**Output**
+
+Write N lines with coordinates for every island. Write coordinates in order of island numeration. Write answer with 6 digits after decimal point.
+
+
+**Example(s)**
+
++-----------------+---------------------+
+|Sample Input     |Sample Output        |
++-----------------+---------------------+
+| | 4 1 3         | | 1.000000 0.000000 |
+| | 1.0000 0.0000 | | 0.000000 1.000000 |
+| | 1.0000 2.0000 | | 1.000000 2.000000 |
+|                 | | 2.000000 1.000000 |
++-----------------+---------------------+

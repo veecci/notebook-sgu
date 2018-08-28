@@ -1,0 +1,29 @@
+
+.. 125.rst
+
+125. Shtirlits
+================
+``time limit per test: 0.25 sec / memory limit per test: 4096 KB``
+
+There is a checkered field of size N x N cells :math:`(1 \le N \le 3)`. Each cell designates the territory of a state (i.e. :math:`N^2` states). Each state has an army. Let A [i, j] be the number of soldiers in the state which is located on i-th line and on j-th column of the checkered field :math:`(1 \le i \le N, 1 \le j \le N, 0 \le A[i, j] \le  9)`. For each state the number of neighbors, B [i, j], that have a larger army, is known. The states are neighbors if they have a common border (i.e. :math:`0 \le  B[i, j] \le 4`). Shtirlits knows matrix B. He has to determine the number of armies for all states (i.e. to find matrix A) using this information for placing forces before the war. If there are more than one solution you may output any of them.
+
+
+
+**Input**
+
+The first line contains a natural number N. Following N lines contain the description of matrix B - N numbers in each line delimited by spaces.
+
+**Output**
+
+If a solution exists, the output file should contain N lines, which describe matrix A. Each line will contain N numbers delimited by spaces. If there is no solution, the file should contain **NO SOLUTION**.
+
+**Example(s)**
+
++----------------+----------------+
+|Sample Input    |Sample Output   |
++----------------+----------------+
+| | 3            | | 1 2 3        |
+| | 1 2 1        | | 1 4 5        |
+| | 1 2 1        | | 1 6 7        |
+| | 1 1 0        |                |
++----------------+----------------+
