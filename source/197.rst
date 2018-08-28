@@ -9,7 +9,7 @@ You might have noticed that there is the new fashion among rich people to have t
 
 .. image:: /_static/p197.png
 
-The president of the company wonders whether the variety of nice patterns he can provide to the clients is large enough. Thus he asks you to find out the number of nice patterns that can be used to tile the yard of size N × M. Now he is interested in the long term estimation, so he suggests :math:`N le 10^{100}`. However, he does not like big numbers, so he asks you to find the answer modulo P. 
+The president of the company wonders whether the variety of nice patterns he can provide to the clients is large enough. Thus he asks you to find out the number of nice patterns that can be used to tile the yard of size N × M. Now he is interested in the long term estimation, so he suggests :math:`N \le 10^{100}`. However, he does not like big numbers, so he asks you to find the answer modulo P. 
 
 **Input**
 

@@ -1,5 +1,4 @@
 build/
-source/_static
 *.swp
 *.swo
 tool/*.in
