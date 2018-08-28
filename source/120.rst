@@ -11,7 +11,7 @@ Archipelago Ber-Islands consists of N islands that are vertices of equiangular a
 
 **Input**
 
-In the first line of input there are N, N1 and N2 ( :math:`3 \le N \le 150, 1 \le N_1, N_2 \le N, N1 \neq N2`) separated by spaces. On the next two lines of input there are coordinates of island :math:`N_1` and :math:`N_2` (one pair per line) with accuracy 4 digits after decimal point. Each coordinate is more than -2000000 and less than 2000000.
+In the first line of input there are N, :math:`N_1` and :math:`N_2` ( :math:`3 \le N \le 150, 1 \le N_1, N_2 \le N, N1 \neq N2`) separated by spaces. On the next two lines of input there are coordinates of island :math:`N_1` and :math:`N_2` (one pair per line) with accuracy 4 digits after decimal point. Each coordinate is more than -2000000 and less than 2000000.
 
 
 

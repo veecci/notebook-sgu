@@ -11,6 +11,7 @@ Welcome to SGU-Notebook's documentation!
    :caption: Contents:
 
    vol1.rst
+   vol2.rst
 
 
 Indices and tables
